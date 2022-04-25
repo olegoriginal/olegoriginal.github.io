@@ -1,1 +1,234 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Oleg Omelchenko</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        background-color: #f8f8f8;
+        font-family: "Montserrat", sans-serif;
+        color: #1d1d2b;
+        display: flex;
+        justify-content: center;
+      }
+      h1 {
+        font-size: 2.25rem;
+        line-height: 2.5rem;
+        margin-bottom: 0.5rem;
+        font-weight: 700;
+      }
+
+      h2 {
+        font-size: 1.875rem;
+        line-height: 2.25rem;
+        margin-bottom: 0.5rem;
+        font-weight: 700;
+      }
+      h3 {
+        font-size: 1.5rem;
+        line-height: 2rem;
+        margin-bottom: 0.5rem;
+        font-weight: 700;
+      }
+      b {
+        line-height: 1.625;
+        margin-bottom: 0.5rem;
+      }
+
+      .header {
+        margin-bottom: 1rem;
+      }
+      .wrapper {
+        max-width: 80%;
+        overflow-y: auto;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        padding-bottom: 1.5rem;
+      }
+      .badges {
+        display: flex;
+        flex-direction: column;
+      }
+      .stats__img {
+        width: 100%;
+      }
+      .container__relative {
+        display: flex;
+      }
+      .typing {
+        overflow: hidden;
+        color: orangered;
+        border-right: 0.15em solid orangered;
+        white-space: nowrap;
+        animation: typing 2.5s steps(30, end) forwards,
+          cursor-blink 0.75s step-end infinite;
+      }
+
+      /* The typing effect */
+      @keyframes typing {
+        from {
+          width: 0;
+        }
+        to {
+          width: 100%;
+        }
+      }
+
+      /* The typewriter cursor effect */
+      @keyframes cursor-blink {
+        from,
+        to {
+          border-color: transparent;
+        }
+        50% {
+          border-color: orangered;
+        }
+      }
+      @media screen and (max-width: 27em) {
+        h1 {
+          font-size: 1.5rem;
+          line-height: 1.8rem;
+        }
+        h2 {
+          font-size: 1.1rem;
+          line-height: 1.7rem;
+        }
+        h3 {
+          font-size: 1rem;
+          line-height: 1.5rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="header">
+        <div class="container__relative">
+          <div>
+            <h1 class="">Hi 👋 My name is</h1>
+            <h1 class="typing">Oleg Omelchenko</h1>
+          </div>
+        </div>
+        <h2>Frontend Developer</h2>
+      </div>
+      <p>
+        <a
+          href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+          target="_blank"
+          rel="noreferrer"
+          ><img
+            src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/javascript-colored.svg"
+            width="36"
+            height="36"
+            alt="Javascript"
+        /></a>
+        <a href="https://reactjs.org/" target="_blank" rel="noreferrer"
+          ><img
+            src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/react-colored.svg"
+            width="36"
+            height="36"
+            alt="React"
+        /></a>
+        <a href="https://nextjs.org/docs" target="_blank" rel="noreferrer"
+          ><img
+            src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/nextjs-colored.svg"
+            width="36"
+            height="36"
+            alt="NextJs"
+        /></a>
+        <a href="https://redux.js.org/" target="_blank" rel="noreferrer"
+          ><img
+            src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/redux-colored.svg"
+            width="36"
+            height="36"
+            alt="Redux"
+        /></a>
+        <a href="https://nodejs.org/en/" target="_blank" rel="noreferrer"
+          ><img
+            src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/nodejs-colored.svg"
+            width="36"
+            height="36"
+            alt="NodeJS"
+        /></a>
+        <a href="https://expressjs.com/" target="_blank" rel="noreferrer"
+          ><img
+            src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/express-colored.svg"
+            width="36"
+            height="36"
+            alt="Express"
+        /></a>
+        <a href="https://www.mongodb.com/" target="_blank" rel="noreferrer"
+          ><img
+            src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/skills/mongodb-colored.svg"
+            width="36"
+            height="36"
+            alt="MongoDB"
+        /></a>
+      </p>
+
+      <h3>Socials</h3>
+
+      <p>
+        <a
+          href="https://www.github.com/olegoriginal"
+          target="_blank"
+          rel="noreferrer"
+          ><img
+            src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg"
+            width="32"
+            height="32"
+        /></a>
+
+        <a
+          href="https://www.linkedin.com/in/oleg-omelchenko-8154501a3"
+          target="_blank"
+          rel="noreferrer"
+          ><img
+            src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg"
+            width="32"
+            height="32"
+        /></a>
+
+        <a
+          href="https://www.stackoverflow.com/users/12998751/olegoriginal"
+          target="_blank"
+          rel="noreferrer"
+          ><img
+            src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/stackoverflow.svg"
+            width="32"
+            height="32"
+        /></a>
+
+        <a
+          href="https://www.twitter.com/omel_omelchenko"
+          target="_blank"
+          rel="noreferrer"
+          ><img
+            src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/twitter.svg"
+            width="32"
+            height="32"
+        /></a>
+      </p>
+      <div class="badges">
+        <h3>Badges</h3>
+        <b>My GitHub Stats</b
+        ><a href="http://www.github.com/olegoriginal"
+          ><img
+            class="stats__img"
+            src="https://github-readme-streak-stats.herokuapp.com/?user=olegoriginal&stroke=ffffff&background=1c1917&ring=0891b2&fire=0891b2&currStreakNum=ffffff&currStreakLabel=0891b2&sideNums=ffffff&sideLabels=ffffff&dates=ffffff&hide_border=true"
+        /></a>
+      </div>
+    </div>
+  </body>
+</html>
